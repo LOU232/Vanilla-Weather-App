@@ -27,7 +27,7 @@
         list-style-type: none;
         color: #a9a6b4;
       }
-      .city {
+      .ville {
         text-transform: capitalize;
       }
       .Weather {
@@ -66,18 +66,19 @@
             <input
               class="searchBar"
               type="text"
-              id="city"
+              id="city-search"
               placeholder="Enter a city..."
+              autocomplete="off"
             />
             <input
               class="btn btn-primary"
               id="searchButton"
-              type="button"
+              type="submit"
               value="Search"
             />
           </form>
         </div>
-        <h2 class="City" id="city">Lon</h2>
+        <h2 class="ville" id="city">Lon</h2>
         <ul>
           <li>Last updated: <span id="date"></span></li>
           <li id="description">Clear</li>
