@@ -52,3 +52,24 @@ li:first-letter {
 .float-left {
   display: inline;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+  opacity: 0.6;
+  margin: 0px auto;
+}
+.weather-forecast-temp {
+  font-size: 13px;
+  margin: 0px auto;
+}
+.weather-forecast-temp-max {
+  color: black;
+}
+.weather-forecast-temp-min {
+  color: black;
+  opacity: 0.6;
+}
