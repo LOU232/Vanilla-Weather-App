@@ -1,10 +1,11 @@
 h1 {
   display: block;
-  align-content: center;
   padding: 40px 20px;
   margin: 0px auto;
+  margin-left: 40px;
   color: #885df1;
 }
+
 ul {
   list-style-type: none;
   color: #a9a6b4;
@@ -35,19 +36,25 @@ li:first-letter {
   border-radius: 5px;
   border-style: solid;
 }
+#icon {
+  margin-right: 5px;
+  margin-top: -35px;
+  height: 80px;
+  width: 80px;
+}
 .temp {
-  font-size: 30pt;
-  display: inline;
+  font-size: 64px;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -34px;
 }
 #searchButton {
   background-color: #885df1;
   border: #885df1;
   line-height: 25px;
   padding: 0px auto;
-}
-.source {
-  padding-left: 30px;
-  margin-left: 30px;
 }
 .float-left {
   display: inline;
@@ -72,4 +79,8 @@ li:first-letter {
 .weather-forecast-temp-min {
   color: black;
   opacity: 0.6;
+}
+#source {
+  padding-left: 20px;
+  padding-top: -15px;
 }
